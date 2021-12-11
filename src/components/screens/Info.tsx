@@ -7,9 +7,11 @@ import Chart from '../Chart';
 const Wrapper = styled.div`
   flex: 4;
   height: 100%;
+  overflow: hidden;
   background-color: ${({ theme }) => theme.colors.dark};
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   @media (max-width: 390px) {
     width: 100%;
@@ -77,6 +79,7 @@ const InfoDate = styled.div`
 
 const BottomBlock = styled.div`
   width: 100%;
+
   padding-bottom: 67px;
   overflow-x: auto;
   display: flex;
