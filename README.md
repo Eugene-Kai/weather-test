@@ -17,7 +17,6 @@
 To run this project, install it locally using npm or yarn:
 
 ```
-$ cd ../weather-test
 $ npm install or yarn install
 $ npm run dev or yarn dev
 ```
