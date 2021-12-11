@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+uploads
+versions
+.idea
+.DS_Store
+.env
+.history
+.next
